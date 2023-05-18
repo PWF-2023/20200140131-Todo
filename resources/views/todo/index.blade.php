@@ -31,6 +31,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="relative overflow-x-auto">
                     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -87,7 +88,7 @@
                                             @csrf
                                             @method('PATCH')
                                             <button type="submit"
-                                                class="text-green-600 dark:text-green-400">
+                                                class="text-blue-600 dark:text-blue-400">
                                                                             UnComplete
                                             </button>        
                                         </form>                       
